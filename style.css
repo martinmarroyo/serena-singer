@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    background-color: #000000;
+}
+/* Mobile */
+#bio {
+    color: #F0EBE1;
+    font-family: "aileron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.item-list{
+    list-style-type: none;
+    color: #FFFFFF;
+    font-family: "aileron", sans-serif;
+}
+a {
+    color: #FFFFFF;
+}
+#email {
+    font-weight: 700;
+}
+#events-headline {
+    color: #A9B369;
+    font-family: "aileron", sans-serif;
+    font-weight: 700;
+}
+.events-show {
+    color: #FFFFFF;
+    font-family: "aileron", sans-serif;
+    font-weight: 700;
+    padding-bottom: 5%;
+}
+.bg {
+    background-image: url("assets/mobile.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #000000;
+    max-width: 100%;
+}
+.contact-no-bullet {
+    margin: 0 auto;
+}
+#bio, #events {
+    text-align: center;
+}
+/* Social Media Icons*/
+[class*="fa-square"] {
+    color: #577992;
+    padding-right: 4%;
+    padding-bottom: 6%;
+}
+/*=================== Tablet ====================================*/
+@media only screen and (min-width: 601px){
+    .bg {
+        background-image: url("assets/tablet.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: #000000;
+        max-width: 100%;
+    
+    }
+}
+
+/*=================== Desktop ====================================*/
+@media only screen and (min-width: 1280px){
+    .bg {
+        background-image: url("assets/desktop.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: #000000;
+        max-width: 100%;
+    
+    }
+}
