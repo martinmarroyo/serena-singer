@@ -57,9 +57,9 @@ a:link, a:visited {
     padding-left: 2%;
 }
 .fa {
-    padding: 2.5%;
-    font-size: 2rem;
-    width: 4%;
+    padding: 2%;
+    font-size: 1.5rem;
+    width: 8%;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -234,6 +234,11 @@ a:link, a:visited {
     .events-show{
         font-size: 1.5rem;
     }
+    .fa {
+        padding: 4%;
+        font-size: 2rem;
+        width: 7%;
+    }
 }
 /*=================== Desktop ====================================*/
 @media only screen and (min-width: 1280px){
@@ -248,29 +253,23 @@ a:link, a:visited {
     }
     .artist-info{
         position: relative;
-        top: 25%;
+        top: 21%;
         width: 45%;
         padding: 5%;
-    }
-    .item-list {
-        padding-left: 0;
-    }
-    [class*="fa-square"] {
-        color: #577992;
-        padding-right: 2%;
-        padding-bottom: 2%;
-    }
+    }   
     #bio {
         color: #F0EBE1;
         font-family: "aileron", sans-serif;
         font-weight: 400;
         font-style: normal;
         text-align: left;
+        font-size: 1.35rem;
     }
     #events {
         text-align: left;
+        margin-top: 0;
     }
-    .bg-mobile, #mobile-footer {
+    .bg-mobile, #mobile-footer{
         display: none;
     }
     #contact {
@@ -278,12 +277,37 @@ a:link, a:visited {
         padding-left: 3%;
         width: 100%;
     }
-    .item-list{
-        list-style-type: none;
+    .contact-no-bullet {
         color: #FFFFFF;
         font-family: "aileron", sans-serif;
+        font-weight: 700;
+        font-size: 1.45rem;
+    }
+    .item-list{
+        list-style-type: none;
+        padding-left: 0;
     }
     #email {
         font-weight: 700;
+        font-size: 1.5rem;
+    }
+    .fa {
+        padding: .5%;
+        font-size: 1.5rem;
+        width: 3%;
+        color: #000000;
+        border-radius: 50%;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 1%;
+    }
+    #socials-list{
+        text-align: left;
+        margin-top: 2%; 
+        margin-bottom: 0;
+        padding-bottom:0;
+    }
+    #events{
+        padding-top: 1%;
     }
 }
