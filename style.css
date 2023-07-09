@@ -282,6 +282,7 @@ a:link, a:visited {
         font-family: "aileron", sans-serif;
         font-weight: 700;
         font-size: 1.45rem;
+        font-style: normal;
     }
     .item-list{
         list-style-type: none;
@@ -292,9 +293,9 @@ a:link, a:visited {
         font-size: 1.5rem;
     }
     .fa {
-        padding: .5%;
+        padding: .75%;
         font-size: 1.5rem;
-        width: 3%;
+        width: 3.25%;
         color: #000000;
         border-radius: 50%;
         text-align: center;
